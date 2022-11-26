@@ -1,0 +1,7 @@
+To run the terraform script on the local machine :
+
+1. In local/main.tf file, Set the path of your aws credentials file for validation in both aws and awscc provider.
+2. From the local folder, run the command terraform apply.
+
+Note  : In case you dont have the credential file in .aws folder, you need to download aws cli and configure aws.
+      : For running terraform, download the terraform and other aws providers version mentioned in readme.md file.
